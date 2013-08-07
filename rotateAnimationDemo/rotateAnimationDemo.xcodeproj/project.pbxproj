@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEDBC8317B1DFD000A52B11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDBC8217B1DFD000A52B11 /* UIKit.framework */; };
+		CEEDBC8517B1DFD000A52B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDBC8417B1DFD000A52B11 /* Foundation.framework */; };
+		CEEDBC8717B1DFD000A52B11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDBC8617B1DFD000A52B11 /* CoreGraphics.framework */; };
+		CEEDBC8D17B1DFD000A52B11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBC8B17B1DFD000A52B11 /* InfoPlist.strings */; };
+		CEEDBC8F17B1DFD000A52B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDBC8E17B1DFD000A52B11 /* main.m */; };
+		CEEDBC9317B1DFD000A52B11 /* abcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDBC9217B1DFD000A52B11 /* abcAppDelegate.m */; };
+		CEEDBC9517B1DFD000A52B11 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBC9417B1DFD000A52B11 /* Default.png */; };
+		CEEDBC9717B1DFD000A52B11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBC9617B1DFD000A52B11 /* Default@2x.png */; };
+		CEEDBC9917B1DFD000A52B11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBC9817B1DFD000A52B11 /* Default-568h@2x.png */; };
+		CEEDBC9C17B1DFD000A52B11 /* abcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDBC9B17B1DFD000A52B11 /* abcViewController.m */; };
+		CEEDBC9F17B1DFD000A52B11 /* abcViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBC9D17B1DFD000A52B11 /* abcViewController_iPhone.xib */; };
+		CEEDBCA217B1DFD000A52B11 /* abcViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCA017B1DFD000A52B11 /* abcViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEEDBC7F17B1DFD000A52B11 /* rotateAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotateAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEDBC8217B1DFD000A52B11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEEDBC8417B1DFD000A52B11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEEDBC8617B1DFD000A52B11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEEDBC8A17B1DFD000A52B11 /* rotateAnimationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rotateAnimationDemo-Info.plist"; sourceTree = "<group>"; };
+		CEEDBC8C17B1DFD000A52B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEEDBC8E17B1DFD000A52B11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEEDBC9017B1DFD000A52B11 /* rotateAnimationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rotateAnimationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CEEDBC9117B1DFD000A52B11 /* abcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abcAppDelegate.h; sourceTree = "<group>"; };
+		CEEDBC9217B1DFD000A52B11 /* abcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcAppDelegate.m; sourceTree = "<group>"; };
+		CEEDBC9417B1DFD000A52B11 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEEDBC9617B1DFD000A52B11 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEEDBC9817B1DFD000A52B11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEEDBC9A17B1DFD000A52B11 /* abcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abcViewController.h; sourceTree = "<group>"; };
+		CEEDBC9B17B1DFD000A52B11 /* abcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcViewController.m; sourceTree = "<group>"; };
+		CEEDBC9E17B1DFD000A52B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/abcViewController_iPhone.xib; sourceTree = "<group>"; };
+		CEEDBCA117B1DFD000A52B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/abcViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEDBC7C17B1DFD000A52B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDBC8317B1DFD000A52B11 /* UIKit.framework in Frameworks */,
+				CEEDBC8517B1DFD000A52B11 /* Foundation.framework in Frameworks */,
+				CEEDBC8717B1DFD000A52B11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEEDBC7617B1DFD000A52B11 = {
+			isa = PBXGroup;
+			children = (
+				CEEDBC8817B1DFD000A52B11 /* rotateAnimationDemo */,
+				CEEDBC8117B1DFD000A52B11 /* Frameworks */,
+				CEEDBC8017B1DFD000A52B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEDBC8017B1DFD000A52B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDBC7F17B1DFD000A52B11 /* rotateAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEDBC8117B1DFD000A52B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDBC8217B1DFD000A52B11 /* UIKit.framework */,
+				CEEDBC8417B1DFD000A52B11 /* Foundation.framework */,
+				CEEDBC8617B1DFD000A52B11 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEDBC8817B1DFD000A52B11 /* rotateAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDBC9117B1DFD000A52B11 /* abcAppDelegate.h */,
+				CEEDBC9217B1DFD000A52B11 /* abcAppDelegate.m */,
+				CEEDBC9A17B1DFD000A52B11 /* abcViewController.h */,
+				CEEDBC9B17B1DFD000A52B11 /* abcViewController.m */,
+				CEEDBC9D17B1DFD000A52B11 /* abcViewController_iPhone.xib */,
+				CEEDBCA017B1DFD000A52B11 /* abcViewController_iPad.xib */,
+				CEEDBC8917B1DFD000A52B11 /* Supporting Files */,
+			);
+			path = rotateAnimationDemo;
+			sourceTree = "<group>";
+		};
+		CEEDBC8917B1DFD000A52B11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDBC8A17B1DFD000A52B11 /* rotateAnimationDemo-Info.plist */,
+				CEEDBC8B17B1DFD000A52B11 /* InfoPlist.strings */,
+				CEEDBC8E17B1DFD000A52B11 /* main.m */,
+				CEEDBC9017B1DFD000A52B11 /* rotateAnimationDemo-Prefix.pch */,
+				CEEDBC9417B1DFD000A52B11 /* Default.png */,
+				CEEDBC9617B1DFD000A52B11 /* Default@2x.png */,
+				CEEDBC9817B1DFD000A52B11 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEDBC7E17B1DFD000A52B11 /* rotateAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEDBCA517B1DFD000A52B11 /* Build configuration list for PBXNativeTarget "rotateAnimationDemo" */;
+			buildPhases = (
+				CEEDBC7B17B1DFD000A52B11 /* Sources */,
+				CEEDBC7C17B1DFD000A52B11 /* Frameworks */,
+				CEEDBC7D17B1DFD000A52B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rotateAnimationDemo;
+			productName = rotateAnimationDemo;
+			productReference = CEEDBC7F17B1DFD000A52B11 /* rotateAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEDBC7717B1DFD000A52B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = abc;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "岳宗申";
+			};
+			buildConfigurationList = CEEDBC7A17B1DFD000A52B11 /* Build configuration list for PBXProject "rotateAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEEDBC7617B1DFD000A52B11;
+			productRefGroup = CEEDBC8017B1DFD000A52B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEDBC7E17B1DFD000A52B11 /* rotateAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEDBC7D17B1DFD000A52B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDBC8D17B1DFD000A52B11 /* InfoPlist.strings in Resources */,
+				CEEDBC9517B1DFD000A52B11 /* Default.png in Resources */,
+				CEEDBC9717B1DFD000A52B11 /* Default@2x.png in Resources */,
+				CEEDBC9917B1DFD000A52B11 /* Default-568h@2x.png in Resources */,
+				CEEDBC9F17B1DFD000A52B11 /* abcViewController_iPhone.xib in Resources */,
+				CEEDBCA217B1DFD000A52B11 /* abcViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEDBC7B17B1DFD000A52B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDBC8F17B1DFD000A52B11 /* main.m in Sources */,
+				CEEDBC9317B1DFD000A52B11 /* abcAppDelegate.m in Sources */,
+				CEEDBC9C17B1DFD000A52B11 /* abcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEEDBC8B17B1DFD000A52B11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEDBC8C17B1DFD000A52B11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEEDBC9D17B1DFD000A52B11 /* abcViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEDBC9E17B1DFD000A52B11 /* en */,
+			);
+			name = abcViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CEEDBCA017B1DFD000A52B11 /* abcViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEDBCA117B1DFD000A52B11 /* en */,
+			);
+			name = abcViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEDBCA317B1DFD000A52B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEEDBCA417B1DFD000A52B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEDBCA617B1DFD000A52B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rotateAnimationDemo/rotateAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "rotateAnimationDemo/rotateAnimationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEEDBCA717B1DFD000A52B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rotateAnimationDemo/rotateAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "rotateAnimationDemo/rotateAnimationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEDBC7A17B1DFD000A52B11 /* Build configuration list for PBXProject "rotateAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDBCA317B1DFD000A52B11 /* Debug */,
+				CEEDBCA417B1DFD000A52B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEDBCA517B1DFD000A52B11 /* Build configuration list for PBXNativeTarget "rotateAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDBCA617B1DFD000A52B11 /* Debug */,
+				CEEDBCA717B1DFD000A52B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEDBC7717B1DFD000A52B11 /* Project object */;
+}
