@@ -19,6 +19,17 @@
 		CEEDBC9C17B1DFD000A52B11 /* abcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDBC9B17B1DFD000A52B11 /* abcViewController.m */; };
 		CEEDBC9F17B1DFD000A52B11 /* abcViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBC9D17B1DFD000A52B11 /* abcViewController_iPhone.xib */; };
 		CEEDBCA217B1DFD000A52B11 /* abcViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCA017B1DFD000A52B11 /* abcViewController_iPad.xib */; };
+		CEEDBCAF17B1E0AD00A52B11 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCA917B1E0AD00A52B11 /* 1.png */; };
+		CEEDBCB017B1E0AD00A52B11 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCAA17B1E0AD00A52B11 /* 2.png */; };
+		CEEDBCB117B1E0AD00A52B11 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCAB17B1E0AD00A52B11 /* 3.png */; };
+		CEEDBCB217B1E0AD00A52B11 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCAC17B1E0AD00A52B11 /* 4.png */; };
+		CEEDBCB317B1E0AD00A52B11 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCAD17B1E0AD00A52B11 /* 5.png */; };
+		CEEDBCB417B1E0AD00A52B11 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCAE17B1E0AD00A52B11 /* 6.png */; };
+		CEEDBCB617B1ED2700A52B11 /* BFlyCircle1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCB517B1ED2700A52B11 /* BFlyCircle1.png */; };
+		CEEDBCBB17B20BCD00A52B11 /* BFlyCircle2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCB717B20BCD00A52B11 /* BFlyCircle2.png */; };
+		CEEDBCBC17B20BCD00A52B11 /* BFlyCircle3.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCB817B20BCD00A52B11 /* BFlyCircle3.png */; };
+		CEEDBCBD17B20BCD00A52B11 /* BFlyCircle4.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCB917B20BCD00A52B11 /* BFlyCircle4.png */; };
+		CEEDBCBE17B20BCD00A52B11 /* BFlyCircle5.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEDBCBA17B20BCD00A52B11 /* BFlyCircle5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,17 @@
 		CEEDBC9B17B1DFD000A52B11 /* abcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcViewController.m; sourceTree = "<group>"; };
 		CEEDBC9E17B1DFD000A52B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/abcViewController_iPhone.xib; sourceTree = "<group>"; };
 		CEEDBCA117B1DFD000A52B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/abcViewController_iPad.xib; sourceTree = "<group>"; };
+		CEEDBCA917B1E0AD00A52B11 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CEEDBCAA17B1E0AD00A52B11 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CEEDBCAB17B1E0AD00A52B11 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CEEDBCAC17B1E0AD00A52B11 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CEEDBCAD17B1E0AD00A52B11 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		CEEDBCAE17B1E0AD00A52B11 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		CEEDBCB517B1ED2700A52B11 /* BFlyCircle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFlyCircle1.png; sourceTree = "<group>"; };
+		CEEDBCB717B20BCD00A52B11 /* BFlyCircle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFlyCircle2.png; sourceTree = "<group>"; };
+		CEEDBCB817B20BCD00A52B11 /* BFlyCircle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFlyCircle3.png; sourceTree = "<group>"; };
+		CEEDBCB917B20BCD00A52B11 /* BFlyCircle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFlyCircle4.png; sourceTree = "<group>"; };
+		CEEDBCBA17B20BCD00A52B11 /* BFlyCircle5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFlyCircle5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +107,7 @@
 		CEEDBC8817B1DFD000A52B11 /* rotateAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CEEDBCA817B1E0AD00A52B11 /* imageResource */,
 				CEEDBC9117B1DFD000A52B11 /* abcAppDelegate.h */,
 				CEEDBC9217B1DFD000A52B11 /* abcAppDelegate.m */,
 				CEEDBC9A17B1DFD000A52B11 /* abcViewController.h */,
@@ -109,6 +132,24 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		CEEDBCA817B1E0AD00A52B11 /* imageResource */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDBCB517B1ED2700A52B11 /* BFlyCircle1.png */,
+				CEEDBCB717B20BCD00A52B11 /* BFlyCircle2.png */,
+				CEEDBCB817B20BCD00A52B11 /* BFlyCircle3.png */,
+				CEEDBCB917B20BCD00A52B11 /* BFlyCircle4.png */,
+				CEEDBCBA17B20BCD00A52B11 /* BFlyCircle5.png */,
+				CEEDBCA917B1E0AD00A52B11 /* 1.png */,
+				CEEDBCAA17B1E0AD00A52B11 /* 2.png */,
+				CEEDBCAB17B1E0AD00A52B11 /* 3.png */,
+				CEEDBCAC17B1E0AD00A52B11 /* 4.png */,
+				CEEDBCAD17B1E0AD00A52B11 /* 5.png */,
+				CEEDBCAE17B1E0AD00A52B11 /* 6.png */,
+			);
+			path = imageResource;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -168,6 +209,17 @@
 				CEEDBC9917B1DFD000A52B11 /* Default-568h@2x.png in Resources */,
 				CEEDBC9F17B1DFD000A52B11 /* abcViewController_iPhone.xib in Resources */,
 				CEEDBCA217B1DFD000A52B11 /* abcViewController_iPad.xib in Resources */,
+				CEEDBCAF17B1E0AD00A52B11 /* 1.png in Resources */,
+				CEEDBCB017B1E0AD00A52B11 /* 2.png in Resources */,
+				CEEDBCB117B1E0AD00A52B11 /* 3.png in Resources */,
+				CEEDBCB217B1E0AD00A52B11 /* 4.png in Resources */,
+				CEEDBCB317B1E0AD00A52B11 /* 5.png in Resources */,
+				CEEDBCB417B1E0AD00A52B11 /* 6.png in Resources */,
+				CEEDBCB617B1ED2700A52B11 /* BFlyCircle1.png in Resources */,
+				CEEDBCBB17B20BCD00A52B11 /* BFlyCircle2.png in Resources */,
+				CEEDBCBC17B20BCD00A52B11 /* BFlyCircle3.png in Resources */,
+				CEEDBCBD17B20BCD00A52B11 /* BFlyCircle4.png in Resources */,
+				CEEDBCBE17B20BCD00A52B11 /* BFlyCircle5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
